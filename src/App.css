@@ -1,3 +1,97 @@
+/* ========================================================== Custom CSS ========================================================== */
+
+.drop-shadow{
+  box-shadow: 10px 10px 5px gray;
+}
+.item-padding{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#grad{
+  height: 1000px;
+  background-color: #58a4b0;
+  background-image: linear-gradient(to right, #a9bcd0, #58a4b0);
+
+}
+.custom-font{
+  font-family: 'Open Sans', sans-serif;
+}
+.intro-card{
+  padding-top:30px;
+  background-color:#f8f9fa;
+  margin-top:30px;
+  width:100%;
+}
+.profile-image-right{
+  width: 100%;
+}
+.info-left{
+  width:100%
+}
+.web-icons{
+  width:40px;
+  display:inline-grid;
+  margin:50px 10px 10px 10px;
+  float:right;
+}
+.intro-text{
+  font-size:25px;
+  color:#373f51;
+  opacity:75%;
+  margin-top:35px;
+}
+
+@media screen and (min-width: 1000px) {
+  .intro-card{
+    padding:30px;
+    background-color:#f8f9fa;
+    margin-top:30px;
+    border-radius:10px;
+    width: 1500px;
+    max-width: 95%;
+    height:650px;
+    box-shadow: 10px 10px 5px gray;
+  }
+  .profile-image-right{
+    width: 50%;
+    float: right;
+  }
+  .info-left{
+    width:50%
+  }
+  .web-icons{
+    width:40px;
+    display:inline-grid;
+    margin:50px 15px 15px 15px;
+    float:right;
+  }
+
+}
+@media screen and (min-width:1209px) {
+  .intro-card{
+    padding:30px;
+    background-color:#f8f9fa;
+    margin-top:30px;
+    border-radius:10px;
+    width: 1500px;
+    max-width: 95%;
+    height:550px;
+    box-shadow: 10px 10px 5px gray;
+  }
+  #grad{
+    height: 700px;
+    background-color: #58a4b0;
+    background-image: linear-gradient(to right, #a9bcd0, #58a4b0);
+  }
+
+}
+/* ========================================================== END ========================================================== */
 .App {
   text-align: center;
 }
