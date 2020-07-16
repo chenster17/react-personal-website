@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavDropdown} from "react-bootstrap";
+import { Navbar, Nav} from "react-bootstrap";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css'
@@ -12,9 +12,9 @@ export default class NavigationBar extends Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" style={{margin:"20px"}} className="ml-auto"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto" style={{fontSize: "20px"}}>
-                        <Nav.Link href="/about" className="item-padding">About</Nav.Link>
-                        <Nav.Link href="/Portfolio" className="item-padding">Portfolio</Nav.Link>
-                        <Nav.Link href="/Contact" className="item-padding">Contact</Nav.Link>
+                        <Nav.Link href="/about" className="item-padding" style={{ color:"#477CAD"}}>About</Nav.Link>
+                        <Nav.Link href="/Portfolio" className="item-padding" style={{ color:"#477CAD"}}> Portfolio</Nav.Link>
+                        <Nav.Link href="/Contact" className="item-padding" style={{ color:"#477CAD"}}>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

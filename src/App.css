@@ -14,9 +14,9 @@
   width: 50%;
 }
 #grad{
-  height: 1000px;
-  background-color: #58a4b0;
-  background-image: linear-gradient(to right, #a9bcd0, #58a4b0);
+  padding-top:0px;
+  width:100%;
+  height: 100%;
 
 }
 .custom-font{
@@ -25,14 +25,13 @@
 .intro-card{
   padding-top:30px;
   background-color:#f8f9fa;
-  margin-top:30px;
   width:100%;
 }
 .profile-image-right{
   width: 100%;
 }
 .info-left{
-  width:100%
+  width:100%;
 }
 .web-icons{
   width:40px;
@@ -71,6 +70,13 @@
     margin:50px 15px 15px 15px;
     float:right;
   }
+  #grad{
+    padding-top:30px;
+    height: 800px;
+    background-color: #58a4b0;
+    background-image: linear-gradient(to right, #a9bcd0, #58a4b0);
+  }
+
 
 }
 @media screen and (min-width:1209px) {
@@ -85,6 +91,7 @@
     box-shadow: 10px 10px 5px gray;
   }
   #grad{
+    padding-top:30px;
     height: 700px;
     background-color: #58a4b0;
     background-image: linear-gradient(to right, #a9bcd0, #58a4b0);

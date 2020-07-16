@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css'
 
 import NavigationBar from "./navbar.components";
+import BottomBar from "./bottombar.components";
 
 
 
@@ -13,7 +14,7 @@ export default class Home extends Component{
         return (
             <div className="custom-font">
                 <NavigationBar/>
-                <div id="grad" style={{paddingTop:"30px"}}>
+                <div id="grad">
                     <div className="intro-card center">
                         <Container>
                             <div>
@@ -36,6 +37,7 @@ export default class Home extends Component{
                         </Container>
                     </div>
                 </div>
+                <BottomBar/>
             </div>
 
         )
