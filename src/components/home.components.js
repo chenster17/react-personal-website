@@ -27,7 +27,7 @@ export default class Home extends Component{
                                             <hr align="left" style={{width:"90px", height:"5px", backgroundColor:"#477CAD"}}/>
                                             <p className="intro-text"> I am a full stack developer, software engineer, and casual writer</p>
                                         <div style={{paddingBottom:"30px"}}>
-                                            <Button href={require("../resume/resume.pdf")} style={{height:"50px", width:"100px",padding:"10px", borderRadius:"20px", backgroundColor:"#477CAD", marginTop:"40px"}} target="_blank"> Resume </Button>
+                                            <Button href={require("../resume/resume.pdf")} style={{height:"50px", width:"125px",padding:"10px", borderRadius:"25px", backgroundColor:"#477CAD", marginTop:"40px"}} target="_blank"> My Resume </Button>
                                             <a href="https://github.com/chenster17" target="_blank"><Image src={require("../images/Github.png")}  className="center web-icons"/></a>
                                             <a href="https://www.facebook.com/joey.chen.9041" target="_blank"> <Image src={require("../images/Facebook.png")}  className="center web-icons"/></a>
                                             <a href="https://www.linkedin.com/in/zhao-chen-544091111/" target="_blank"><Image src={require("../images/Linkedin.png")}  className="center web-icons"/></a>

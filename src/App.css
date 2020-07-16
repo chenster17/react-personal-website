@@ -7,6 +7,9 @@
   margin-left: 30px;
   margin-right: 30px;
 }
+.test{
+  background-color: red;
+}
 .center {
   display: block;
   margin-left: auto;
@@ -36,7 +39,7 @@
 .web-icons{
   width:40px;
   display:inline-grid;
-  margin:50px 10px 10px 10px;
+  margin:50px 5px 5px 5px;
   float:right;
 }
 .intro-text{
@@ -44,6 +47,10 @@
   color:#373f51;
   opacity:75%;
   margin-top:35px;
+}
+.gradient-bg{
+  background-color: #58a4b0;
+  background-image: linear-gradient(to right, #a9bcd0, #58a4b0);
 }
 
 @media screen and (min-width: 1000px) {
