@@ -30,6 +30,11 @@
   background-color:#f8f9fa;
   width:100%;
 }
+.content-card-1{
+  padding-top:30px;
+  background-color:#f8f9fa;
+  width:100%;
+}
 .profile-image-right{
   width: 100%;
 }
@@ -53,15 +58,26 @@
   background-image: linear-gradient(to right, #a9bcd0, #58a4b0);
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
+
   .intro-card{
     padding:30px;
     background-color:#f8f9fa;
     margin-top:30px;
-    border-radius:10px;
+    border-radius:50px;
     width: 1500px;
     max-width: 95%;
     height:650px;
+    box-shadow: 10px 10px 5px gray;
+  }
+  .content-card-1{
+    border-radius:50px;
+    padding:20px;
+    margin-top:50px;
+    width:1500px;
+    max-width: 95%;
+    height:100%;
+    background-color:#f8f9fa;
     box-shadow: 10px 10px 5px gray;
   }
   .profile-image-right{
@@ -91,7 +107,7 @@
     padding:30px;
     background-color:#f8f9fa;
     margin-top:30px;
-    border-radius:10px;
+    border-radius:50px;
     width: 1500px;
     max-width: 95%;
     height:550px;
@@ -99,7 +115,7 @@
   }
   #grad{
     padding-top:30px;
-    height: 700px;
+    height: 850px;
     background-color: #58a4b0;
     background-image: linear-gradient(to right, #a9bcd0, #58a4b0);
   }
