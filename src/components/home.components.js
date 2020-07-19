@@ -7,6 +7,7 @@ import '../App.css'
 import NavigationBar from "./navbar.components";
 import BottomBar from "./bottombar.components";
 import Content from "./content.components";
+import Intro from "./intro.components"
 
 
 
@@ -23,10 +24,10 @@ export default class Home extends Component{
                                     <Image src={require("../images/profileImage.png")}  className="center" style={{marginTop:"25px",width:"70%", maxWidth:"350px"}}/>
                                 </div>
                                 <div className="info-left">
-                                    <div className="intro-text">Hey there! My name is </div>
+                                    <div className="main-text">Hey there! My name is </div>
                                         <div style={{fontSize:"90px", fontWeight: "bold", color:"#477CAD",lineHeight:"130px"}}>Zhao Chen.</div>
                                             <hr align="left" style={{width:"90px", height:"5px", backgroundColor:"#477CAD"}}/>
-                                            <p className="intro-text"> I am a full stack developer, software engineer, & casual writer</p>
+                                            <p className="main-text"> I am a full stack developer, software engineer, & casual writer</p>
                                         <div style={{paddingBottom:"30px"}}>
                                             <Button href={require("../resume/resume.pdf")} style={{height:"50px", width:"125px",padding:"10px", borderRadius:"25px", backgroundColor:"#477CAD", marginTop:"40px"}} target="_blank"> My Resume </Button>
                                             <a href="https://github.com/chenster17" target="_blank" rel="noopener noreferrer"><Image src={require("../images/Github.png")}  className="center web-icons"/></a>
@@ -38,6 +39,7 @@ export default class Home extends Component{
                         </Container>
                     </div>
                     <Content/>
+                    <Intro/>
                     <BottomBar/>
                 </div>
             </div>
