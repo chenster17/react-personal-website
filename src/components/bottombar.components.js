@@ -14,7 +14,7 @@ export default class BottomBar extends Component {
     }
     render(){
         return (
-            <div className="gradient-bg">
+            <div className="gradient-bg" id="contact">
             <div id="bar" style={{backgroundColor:"#1b1b1e", height:"100%", color:"white"}}>
                 <span style={{color:"#f8f9fa", padding:"15px"}} type='button' onClick={this.topFunction}>back to top<Image src={require("../images/arrow.png")} style={{width:"20px", margin:"10px"}}/></span>
                 <div style={{paddingBottom:"15px"}}>

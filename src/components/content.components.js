@@ -15,11 +15,11 @@ export default class Content extends Component{
     }
     render(){
         return (
-                <div className="content-card-1 center">
-                <Container>
+                <div className="content-card-1 center" >
+                <Container style={{height:"100%"}}>
                     {(this.state.windowWidth < 800) ?<hr style={{height:"10px", backgroundColor:"#477CAD", opacity:"65%", borderRadius:"5px"}}/> : <div></div>}
-                    <div style={{height:"100%"}}>
-                        <CardGroup style={{textAlign:"center", paddingTop:"60px", paddingBottom:"60px"}}>
+                    <div>
+                        <CardGroup style={{textAlign:"center", margin:"20px"}} id="about">
                             <Card style={{ backgroundColor:"#f8f9fa", borderTop: "0px",  borderBottom: "0px", borderWidth: "thick", borderColor:"#58a4b0"}}>
                                 <Card.Img variant="top" src={require("../images/fullstack.png")} style={{width:"50px"}} className="center"/>
                                 <Card.Body style={{marginTop:"20px"}}>

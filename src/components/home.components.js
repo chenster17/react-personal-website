@@ -8,6 +8,7 @@ import NavigationBar from "./navbar.components";
 import BottomBar from "./bottombar.components";
 import Content from "./content.components";
 import Intro from "./intro.components"
+import Portfolio from "./portfolio.components";
 
 
 
@@ -16,7 +17,7 @@ export default class Home extends Component{
         return (
             <div className="custom-font">
                 <NavigationBar/>
-                <div id="grad">
+                <div id="grad" style={{paddingTop:"100px"}}>
                     <div className="intro-card center">
                         <Container>
                             <div>
@@ -29,10 +30,10 @@ export default class Home extends Component{
                                             <hr align="left" style={{width:"90px", height:"5px", backgroundColor:"#477CAD"}}/>
                                             <p className="main-text"> I am a full stack developer, software engineer, & casual writer</p>
                                         <div style={{paddingBottom:"30px"}}>
-                                            <Button href={require("../resume/resume.pdf")} style={{height:"50px", width:"125px",padding:"10px", borderRadius:"25px", backgroundColor:"#477CAD", marginTop:"40px"}} target="_blank"> My Resume </Button>
-                                            <a href="https://github.com/chenster17" target="_blank" rel="noopener noreferrer"><Image src={require("../images/Github.png")}  className="center web-icons"/></a>
-                                            <a href="https://www.facebook.com/joey.chen.9041" target="_blank" rel="noopener noreferrer"> <Image src={require("../images/Facebook.png")}  className="center web-icons"/></a>
-                                            <a href="https://www.linkedin.com/in/zhao-chen-544091111/" target="_blank" rel="noopener noreferrer"><Image src={require("../images/Linkedin.png")}  className="center web-icons"/></a>
+                                            <Button href={require("../resume/resume.pdf")} style={{height:"50px", width:"125px",padding:"10px", borderRadius:"25px", backgroundColor:"#477CAD", marginTop:"40px"}} target="_blank" className="resume"> My Resume </Button>
+                                            <a  href="https://github.com/chenster17" target="_blank" rel="noopener noreferrer"><Image src={require("../images/Github.png")}  className="center web-icons icon"/></a>
+                                            <a  href="https://www.facebook.com/joey.chen.9041" target="_blank" rel="noopener noreferrer"> <Image src={require("../images/Facebook.png")}  className="center web-icons icon"/></a>
+                                            <a  href="https://www.linkedin.com/in/zhao-chen-544091111/" target="_blank" rel="noopener noreferrer"><Image src={require("../images/Linkedin.png")}  className="center web-icons icon"/></a>
                                         </div>
                                 </div>
                             </div>
@@ -40,6 +41,7 @@ export default class Home extends Component{
                     </div>
                     <Content/>
                     <Intro/>
+                    <Portfolio/>
                     <BottomBar/>
                 </div>
             </div>
