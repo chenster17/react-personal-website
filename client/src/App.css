@@ -112,17 +112,20 @@
 }
 .box-container .box:hover{
   transform: scale(1.02);
+  -ms-transform: scale(1.02);
   box-shadow: 5px 5px 5px gray;
 
 }
 .box-container .box:hover .left-profile-caption{
   transition: 0.3s;
   transform:translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
 }
 .box-container .box:hover .right-profile-caption{
 
   transition: 0.3s;
   transform:translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
 }
 .box-container .box:nth-child(1){
   background-color: #373f51;
@@ -138,6 +141,10 @@
 }
 .box-container .box:nth-child(5){
   background-color: #1b1b1e;
+}
+.portfolio-image{
+  width:40%;
+  boxShadow: 5px 5px 5px gray;
 }
 .left-profile-caption{
   font-weight:bold;
@@ -221,7 +228,10 @@
     height: 100%;
   }
 
-
+  .portfolio-image{
+    width:60%;
+    boxShadow: 5px 5px 5px gray;
+  }
   .box-container .box:nth-child(1){
     background-color: #373f51;
     grid-column: span 3;

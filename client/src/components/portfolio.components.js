@@ -26,12 +26,12 @@ export default class Portfolio extends Component{
                             </div>
                             <div className="box" style={{overflow:"hidden"}}>
                                 <div className="left-profile-caption" style={{color:"black"}}>Web Application Selection</div>
-                                <img src={require("../images/app_Selection.png")} style={{width:"60%", boxShadow:"5px 5px 5px gray"}} alt="App Selection"/>
+                                <img src={require("../images/app_Selection.png")} alt="App Selection" className="portfolio-image"/>
                                 <div className="right-profile-caption" style={{color:"black"}}>HTML / CSS</div>
                             </div>
                             <div className="box" style={{overflow:"hidden"}}>
                                 <div className="left-profile-caption" style={{color:"black"}}>Email Design</div>
-                                <img src={require("../images/email_HTML.png")} style={{width:"60%", boxShadow:"5px 5px 5px gray"}} alt="Email Html"/>
+                                <img src={require("../images/email_HTML.png")}  alt="Email Html" className="portfolio-image"/>
                                 <div className="right-profile-caption" style={{color:"black"}}>HTML</div>
                             </div>
                             <div className="box" style={{overflow:"hidden"}}>
