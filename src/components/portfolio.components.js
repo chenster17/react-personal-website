@@ -11,29 +11,35 @@ export default class Portfolio extends Component{
                         <Container>
                         <div className="box-container">
                             <div className="box" style={{overflow:"hidden"}}>
-                                <div className="left-profile-caption">Essex County Chinese Canadian Association Website</div>
-                                <img src={require("../images/ECCCA.png")} style={{width:"75%"}}/>
-                                <div className="right-profile-caption">MongoDB / Express / React JS / Node.js / AWS S3</div>
+                                    <div className="left-profile-caption">Essex County Chinese Canadian Association Website</div>
+                                <a href="https://chinese-website.herokuapp.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none", color:"white"}}>
+                                    <img src={require("../images/ECCCA.png")} style={{width:"75%"}} alt="ECCCA"/>
+                                </a>
+                                    <div className="right-profile-caption">MongoDB / Express / React JS / Node.js / AWS S3</div>
                             </div>
                             <div className="box" style={{overflow:"hidden"}}>
-                                <div className="left-profile-caption" style={{color:"black"}}>Personal Website</div>
-                                <img src={require("../images/Macbook.png")} style={{width:"55%"}}/>
-                                <div className="right-profile-caption" style={{color:"black"}}>React JS / Bootstrap</div>
+                                    <div className="left-profile-caption" style={{color:"black"}}>Personal Website</div>
+                                <a href="https://github.com/chenster17/Personal-Website" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}>
+                                    <img src={require("../images/Macbook.png")} style={{width:"55%"}} alt="Macbook"/>
+                                </a>
+                                    <div className="right-profile-caption" style={{color:"black"}}>React JS / Bootstrap</div>
                             </div>
                             <div className="box" style={{overflow:"hidden"}}>
                                 <div className="left-profile-caption" style={{color:"black"}}>Web Application Selection</div>
-                                <img src={require("../images/app_Selection.png")} style={{width:"60%", boxShadow:"5px 5px 5px gray"}}/>
+                                <img src={require("../images/app_Selection.png")} style={{width:"60%", boxShadow:"5px 5px 5px gray"}} alt="App Selection"/>
                                 <div className="right-profile-caption" style={{color:"black"}}>HTML / CSS</div>
                             </div>
                             <div className="box" style={{overflow:"hidden"}}>
                                 <div className="left-profile-caption" style={{color:"black"}}>Email Design</div>
-                                <img src={require("../images/email_HTML.png")} style={{width:"60%", boxShadow:"5px 5px 5px gray"}}/>
+                                <img src={require("../images/email_HTML.png")} style={{width:"60%", boxShadow:"5px 5px 5px gray"}} alt="Email Html"/>
                                 <div className="right-profile-caption" style={{color:"black"}}>HTML</div>
                             </div>
                             <div className="box" style={{overflow:"hidden"}}>
-                                <div className="left-profile-caption">PCEmpire Website</div>
-                                <img src={require("../images/PCEmpire.png")} style={{width:"70%"}}/>
-                                <div className="right-profile-caption">MongoDB / Express / React JS / Node.js </div>
+                                    <div className="left-profile-caption">PCEmpire Website</div>
+                                <a href="https://github.com/chenster17/CSCFinalProject" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none", color:"white"}}>
+                                    <img src={require("../images/PCEmpire.png")} style={{width:"70%"}} alt="PCEmpire"/>
+                                </a>
+                                    <div className="right-profile-caption">MongoDB / Express / React JS / Node.js </div>
                             </div>
                         </div>
                         </Container>
