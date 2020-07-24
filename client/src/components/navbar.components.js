@@ -12,9 +12,9 @@ export default class NavigationBar extends Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" style={{margin:"20px"}} className="ml-auto"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto" style={{fontSize: "20px"}}>
-                        <Nav.Link href="#about" className="item-padding" style={{ color:"#477CAD"}}>About</Nav.Link>
-                        <Nav.Link href="#portfolio" className="item-padding" style={{ color:"#477CAD"}}> Portfolio</Nav.Link>
-                        <Nav.Link href="#contact" className="item-padding" style={{ color:"#477CAD"}}>Contact</Nav.Link>
+                        <Nav.Link href="/#portfolio" className="item-padding" style={{ color:"#477CAD"}}> portfolio</Nav.Link>
+                        <Nav.Link href="/about" className="item-padding" style={{ color:"#477CAD"}}>about</Nav.Link>
+                        <Nav.Link href="/#contact" className="item-padding" style={{ color:"#477CAD"}}>contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
