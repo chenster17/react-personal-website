@@ -21,7 +21,7 @@ export default class BottomBar extends Component {
                     <div className="center" style={{textAlign:"center", color:"#f8f9fa"}}>contact:</div>
                     <hr align="center" style={{width:"90px", height:"1px", backgroundColor:"#f8f9fa"}}/>
                     <div className="center" style={{textAlign:"center", color:"#f8f9fa", padding:"5px"}} ><a style={{textDecoration:"none",color:"#f8f9fa" }} href="mailto:Jchen1117@gmail.com">jchen1117@gmail.com</a></div>
-                    <div className="center" style={{textAlign:"center", color:"#f8f9fa", padding:"5px"}}>+1 (519)-972-8802</div>
+                    <div className="center" style={{textAlign:"center", color:"#f8f9fa", padding:"5px"}}>+1 (226)-350-5235</div>
                     <div style={{ fontSize:"10px", marginLeft:"15px" }}>designed and developed by Zhao Chen</div>
                 </div>
             </div>
